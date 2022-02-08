@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <Navbar />
+    <div class="cBackgroundNav">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <Navbar />
+          </div>
         </div>
       </div>
     </div>
@@ -31,6 +33,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+.cBackgroundNav{
+  background-color: #fafafa;
+}
 
 .hBackground{
   background-image: url('../assets/img/avada-spa-slider-image-1-new.jpg');

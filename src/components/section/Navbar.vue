@@ -1,8 +1,8 @@
 <template>
   <div>
       <nav>
-          <ul class="d-flex justify-content-between align-items-center p-5 design">
-              <li >
+          <ul class="d-flex justify-content-between align-items-center p-4 design">
+              <li>
                 <a href="#">
                   <i class="fas fa-home"></i>
                 </a>
@@ -58,7 +58,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 ul{
   list-style-type: none;
 }
