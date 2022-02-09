@@ -10,6 +10,7 @@
 import FooterBottom from './section/sectionFooter/FooterBottom.vue'
 import FooterCenter from './section/sectionFooter/FooterCenter.vue'
 import FooterTop from './section/sectionFooter/FooterTop.vue'
+
 export default {
   name: 'Footer',
   components: { 
