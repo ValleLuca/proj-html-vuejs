@@ -1,9 +1,11 @@
 <template>
   <div class="grid"> <!--implementare grid-->
-      <div class="g-col-1" v-for="(elemnt, index) in box" :key="index"> 
-          <img class="img-fluid" :src="elemnt.img" >
-          <p>{{ elemnt.title }}</p>
-          <p>{{ elemnt.text }}</p>
+      <div class="border" v-for="(elemnt, index) in box" :key="index">
+        <img class="img-fluid" :src="elemnt.img" >
+        <div class="p-3">
+            <p class="cText">{{ elemnt.title }}</p>
+            <p class="bordoPers">{{ elemnt.text }}</p>
+        </div>
       </div>
   </div>
 </template>
@@ -62,6 +64,17 @@ export default {
 
 <style scoped lang="scss">
 
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+}
 
+.bordoPers{
+    border-top: 1px dotted #c3af96;
+}
+
+.cText{
+    color: #c3af96;
+}
 
 </style>
