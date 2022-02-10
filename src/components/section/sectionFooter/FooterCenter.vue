@@ -75,6 +75,7 @@ export default {
 
 .cText{
     color: #c3af96;
+    font-family: 'Tinos', serif;
 }
 
 </style>

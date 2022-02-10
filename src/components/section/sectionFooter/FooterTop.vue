@@ -22,4 +22,8 @@ export default {
     background-size: cover;
 }
 
+h2{
+  font-family: 'Tinos', serif;
+}
+
 </style>

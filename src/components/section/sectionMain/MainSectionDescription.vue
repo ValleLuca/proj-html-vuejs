@@ -55,7 +55,11 @@ export default {
 }
 
 .textFontSize{
-  font-size: 50px;
+  font-size: 70px;
+}
+
+.textFontSize, .optionBox {
+  font-family: 'Tinos', serif;
 }
 
 .optionBox{

@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5">
-      <div class="row text-center">
+      <div class="row text-center fontOption">
           <div class="col">
             <div class="optionTherapy fs-1">
                 <i class="fa-solid fa-hands fa-flip-horizontal"></i>
@@ -47,6 +47,10 @@ export default {
 
 .optionTherapy{
     color: #b8ad9f;
+}
+
+.fontOption{
+  font-family: 'Tinos', serif;
 }
 
 </style>

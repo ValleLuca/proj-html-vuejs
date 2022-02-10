@@ -9,18 +9,18 @@
             </div>
             <div class="col optionCol">
                 <div>
-                    <h3 class="">Face & Body Treatments</h3>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur excepturi eligendi consectetur odio consequatur modi ratione fugiat. In, quaerat?</p>
+                    <h3 class="optionText">Face & Body Treatments</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur excepturi eligendi consectetur odio consequatur modi ratione fugiat. In, quaerat?</p>
                 </div>
                 <div>
                     <div class="boxPrice" @click="active = !active">
                         <div class="p-2" v-show="!active" >
                             <i class="fas fa-plus-square"></i>
-                            <span class="ms-2">Oil Massage</span>
+                            <span class="ms-2 optionText">Oil Massage</span>
                         </div>
                         <div class="p-2" v-show="active">
                             <i class="fas fa-minus-square chColor"></i>
-                            <span class="ms-2">Oil Massage</span>
+                            <span class="ms-2 optionText">Oil Massage</span>
                             <p class="pt-3">$62 For 2 Hours - Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
@@ -28,11 +28,11 @@
                     <div class="boxPrice mt-1" @click="mActive = !mActive">
                         <div class="p-2" v-show="!mActive" >
                             <i class="fas fa-plus-square"></i>
-                            <span class="ms-2">Manicure</span>
+                            <span class="ms-2 optionText">Manicure</span>
                         </div>
                         <div class="p-2" v-show="mActive">
                             <i class="fas fa-minus-square chColor"></i>
-                            <span class="ms-2">Manicure</span>
+                            <span class="ms-2 optionText">Manicure</span>
                             <p class="pt-3">$62 For 2 Hours - Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
@@ -40,11 +40,11 @@
                     <div class="boxPrice mt-1" @click="aromActive = !aromActive">
                         <div class="p-2" v-show="!aromActive" >
                             <i class="fas fa-plus-square"></i>
-                            <span class="ms-2">Aromatherapy</span>
+                            <span class="ms-2 optionText">Aromatherapy</span>
                         </div>
                         <div class="p-2" v-show="aromActive">
                             <i class="fas fa-minus-square chColor"></i>
-                            <span class="ms-2">Aromatherapy</span>
+                            <span class="ms-2 optionText">Aromatherapy</span>
                             <p class="pt-3">$62 For 2 Hours - Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
@@ -110,6 +110,10 @@ export default {
         color: #5aadbd;
         border: 2px solid #5aadbd;
     }
+}
+
+.optionText{
+  font-family: 'Tinos', serif;
 }
 
 </style>

@@ -76,6 +76,8 @@ export default {
 
 .sizeCFooter{
   font-size: 35px;
+  font-family: 'Tinos', serif;
+
 }
 
 .optionButton{

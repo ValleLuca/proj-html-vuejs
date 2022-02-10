@@ -11,7 +11,7 @@
     </div>
     <div class="hBackground position-relative">
       <div class="position-absolute top-50 start-50 translate-middle text-light text-center">
-        <p class="fs-1">Give yourself permission</p>
+        <p class="fs-1 textStyle">Give yourself permission</p>
         <div class="larghText">
           <h1 class="fontOption">Relax, Revive & Rejuvenate</h1>
         </div>
@@ -55,10 +55,15 @@ export default {
 
 .fontOption{
   font-size: 100px;
+  font-family: 'Tinos', serif;
 }
 
 .larghText{
   width: 1500px;
+}
+
+.textStyle{
+  font-family: 'IM Fell Double Pica', serif;
 }
 
 </style>

@@ -35,7 +35,7 @@
                 <a class="colorTratment" href="#">
                   <i class="fas fa-bookmark"></i>
                 </a>
-                <span>BOOK nOW</span>
+                <span>BOOK NOW</span>
                 <div>Special Offert</div>
               </li>
               <li class="d-flex flex-column align-items-center">
