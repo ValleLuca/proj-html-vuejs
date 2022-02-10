@@ -1,25 +1,25 @@
 <template>
-    <div class="container">
+    <div class="container optionContainer">
       <div class="row justify-content-center text-center">
         <div class="row">
           <div class="col">
-            <h2>Luxury Spa Experience</h2>
+            <h2 class="textFontSize">Luxury Spa Experience</h2>
           </div>
         </div>
-        <div class="row">
-          <i class="fab fa-envira fa-flip-horizontal"></i>
+        <div class="row my-3 optionBox">
+          <i class="fab fa-envira fa-flip-horizontal fa-2xl"></i>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus aspernatur explicabo distinctio magni soluta ipsum nemo eveniet nihil, quis aperiam architecto. Eveniet omnis iure deserunt quam. Ipsam, unde dignissimos?
+          <div class="col-8 optionBox fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti esse voluptate autem recusandae eos error repudiandae.
           </div>
         </div>
         <div class="row d-flex justify-content-center">
           <div class="col-1 border-top my-4"> </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus aspernatur explicabo distinctio magni soluta ipsum nemo eveniet nihil, quis aperiam architecto. Eveniet omnis iure deserunt quam. Ipsam, unde dignissimos?
+          <div class="col-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, delectus! Laudantium architecto reprehenderit quis ut nemo at, labore perspiciatis cupiditate provident. Impedit non fugit architecto, ut doloribus dolorem voluptates doloremque debitis, inventore deleniti ratione quis harum mollitia laboriosam voluptas? Atque!
           </div>
         </div>
         <div class="optionButtonDescr">
@@ -48,6 +48,18 @@ export default {
       border: 1px solid #5aadbd;
     }
   }
+}
+
+.optionContainer{
+  margin-top: 100px;
+}
+
+.textFontSize{
+  font-size: 50px;
+}
+
+.optionBox{
+  color: #b6ad9f;
 }
 
 </style>

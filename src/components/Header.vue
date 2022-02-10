@@ -11,8 +11,10 @@
     </div>
     <div class="hBackground position-relative">
       <div class="position-absolute top-50 start-50 translate-middle text-light text-center">
-        <p>Give yourself permission</p>
-        <h1>Relax, Revive & Rejuvenate</h1>
+        <p class="fs-1">Give yourself permission</p>
+        <div class="larghText">
+          <h1 class="fontOption">Relax, Revive & Rejuvenate</h1>
+        </div>
         <button class="rounded-pill p-2 px-5 text-light mt-4">EXPLORE TREATMNETS</button>
       </div>
     </div>
@@ -49,6 +51,14 @@ export default {
       border: 1px solid #33a7b9;
     }
   }
+}
+
+.fontOption{
+  font-size: 100px;
+}
+
+.larghText{
+  width: 1500px;
 }
 
 </style>
